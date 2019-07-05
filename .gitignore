@@ -2,3 +2,4 @@ CodeSearch/venv/
 CodeSearch/.idea/
 .DS_Store
 *.pyc
+.ipynb_checkpoints
