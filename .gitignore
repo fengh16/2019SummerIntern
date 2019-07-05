@@ -1,2 +1,4 @@
 CodeSearch/venv/
 CodeSearch/.idea/
+.DS_Store
+*.pyc
