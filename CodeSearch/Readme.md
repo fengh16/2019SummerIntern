@@ -14,5 +14,7 @@
 1. 安装docker(`brew cask install docker`)，之后打开启动台里面的docker
 2. `docker pull hamelsmu/ml-cpu`
 3. `docker run -it -p 233:233 hamelsmu/ml-cpu bash`启动
-4. jupyter启动：启动docker之后`jupyter notebook --allow-root --no-browser --port 233 --ip=0.0.0.0`启动，复制网址到自己电脑的网页浏览器后将ip换成127.0.0.1就可以打开
+4. 获取代码：在docker中`git clone https://github.com/hamelsmu/code_search`
+5. jupyter启动：启动docker之后`jupyter notebook --allow-root --no-browser --port 233 --ip=0.0.0.0`启动，复制网址到自己电脑的网页浏览器后将ip换成127.0.0.1就可以打开
+6. 减少数据量：将下载过程中的`range(10)`改成`range(1)`
 
