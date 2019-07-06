@@ -30,4 +30,8 @@
     3. 修改fastai文件夹下的model.py文件，171和176行round参数的`values`改成`np.array(values).astype(float)`
     4. 创建目录`data/lang_model_emb`
     5. 直接运行所有代码，跑通第三步
-9. 第四步
+9. 第四步（`4 - Train Model To Map Code Embeddings to Language Embeddings`）
+    1. 调整`Train the code2emb Model`里面的batch_size（改成了200）和epoches（改成了4）
+    2. 调整`Extract code vectors`里面的batch_size（改成了2000）
+    3. 直接运行所有代码，跑通第四步
+10. 第五步
