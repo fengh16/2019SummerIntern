@@ -24,7 +24,10 @@
     1. 安装没有的库tensorflow、annoy：直接pip安装（`pip install XXXX -i https://pypi.tuna.tsinghua.edu.cn/simple`）
     2. 调小seq2seq这里的batch_size：（改为100）避免内存不足
     3. 直接运行所有代码，跑通第二步
-8. 第三步（
+8. 第三步（`3 - Train Language Model Using FastAI`)
     1. 创建目录`data/lang_model`
     2. 将Train Fast.AI Language Model这里的文件名改成上面一个cell里面的带`_v2`的(应该是这样吧？)
     3. 修改fastai文件夹下的model.py文件，171和176行round参数的`values`改成`np.array(values).astype(float)`
+    4. 创建目录`data/lang_model_emb`
+    5. 直接运行所有代码，跑通第三步
+9. 第四步
