@@ -22,7 +22,7 @@
 5. jupyter启动：启动docker之后`jupyter notebook --allow-root --no-browser --port 233 --ip=0.0.0.0`启动，复制网址到自己电脑的网页浏览器后将ip换成127.0.0.1就可以打开
 
 6. 第一步（`1 - Preprocess Data`）：
-    1. 减少数据量：手动下载数据集之后缩减，放到了https://raw.githubusercontent.com/fengh16/2019SummerIntern/master/CodeSearch/test_little.csv，可以把对应的获取数据集的代码改掉（改成`df = pd.read_csv(f'https://raw.githubusercontent.com/fengh16/2019SummerIntern/master/CodeSearch/test_little.csv')`）
+    1. 减少数据量：手动下载数据集之后缩减，放到了`https://raw.githubusercontent.com/fengh16/2019SummerIntern/master/CodeSearch/test_little.csv`，可以把对应的获取数据集的代码改掉（改成`df = pd.read_csv(f'https://raw.githubusercontent.com/fengh16/2019SummerIntern/master/CodeSearch/test_little.csv')`）
     2. 运行代码前的操作：新建目录：`data/processed_data`
     3. 直接执行所有代码块就可以跑通第一步
 
