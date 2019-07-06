@@ -49,4 +49,4 @@
 
     2. 最下面的格子里面尝试了如下图：
 
-        ![image-20190706094028352](/Users/henryfox/Documents/百度云同步盘/大三下/暑假实习/Git/2019SummerIntern/CodeSearch/Readme.assets/image-20190706094028352.png)
+        ![image-20190706094028352](./Readme.assets/image-20190706094028352.png)

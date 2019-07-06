@@ -26,7 +26,7 @@
 
     - 在自己训练的过程中（和他文章中提供的图片），查询结果里面的排序方式是余弦距离小的排在前面，如下图：
 
-      ![image-20190706093019654](/Users/henryfox/Documents/百度云同步盘/大三下/暑假实习/Git/2019SummerIntern/Questions.assets/image-20190706093019654.png)
+      ![image-20190706093019654](./Questions.assets/image-20190706093019654.png)
 
 ## Deep API
 
