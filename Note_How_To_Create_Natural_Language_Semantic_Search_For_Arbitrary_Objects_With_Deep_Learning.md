@@ -9,6 +9,3 @@ Code summarizer：将中间过程拿出来作为vector，tree-based LSTM
 - 直接取出来encoder，乘一个权重矩阵
 
 Language2Vec：自然语言处理的model，LSTM
-
-- 余弦距离为啥是越小的越接近？
-
