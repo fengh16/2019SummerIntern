@@ -50,3 +50,7 @@
     2. 最下面的格子里面尝试了如下图：
 
         ![image-20190706094028352](./Readme.assets/image-20190706094028352.png)
+
+#### codesearch image
+
+已将上述步骤完成后的docker container做成image发布到了https://hub.docker.com/r/fengh16/codesearch
