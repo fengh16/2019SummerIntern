@@ -54,3 +54,12 @@
 #### codesearch image
 
 已将上述步骤完成后的docker container做成image发布到了https://hub.docker.com/r/fengh16/codesearch
+
+**注意：存在挂载盘的问题，如果在挂载盘上进行操作，commit的时候不会被记录进去**
+
+**上面的image不知为何，直接在`~`目录下进行文件新建无法记录，可能是挂载盘的问题？所以将所有的数据都放在了`/home`目录下，当前的tag为`v2`**
+
+启动方法：
+
+- `docker run -it -p 233:233 fengh16/codesearch:v2 bash`
+- 在docker环境中：`cd /home`之后`jupyter notebook --allow-root --no-browser --port 233 --ip=0.0.0.0`启动，复制网址到自己电脑的网页浏览器后将ip换成`localhost`就可以打开
