@@ -63,3 +63,30 @@
 
 - `docker run -it -p 233:233 fengh16/codesearch:v2 bash`
 - 在docker环境中：`cd /home`之后`jupyter notebook --allow-root --no-browser --port 233 --ip=0.0.0.0`启动，复制网址到自己电脑的网页浏览器后将ip换成`localhost`就可以打开
+
+#### PAI
+
+``` json
+{
+  "jobName": "cpu-example",
+  "image": "fengh16/codesearch:v2",
+  "virtualCluster": "default",
+  "taskRoles": [
+    {
+      "name": "test",
+      "taskNumber": 1,
+      "cpuNumber": 1,
+      "memoryMB": 4000,
+      "gpuNumber": 0,
+      "command": "cd /home && jupyter notebook --allow-root --no-browser --port=$PAI_CONTAINER_HOST_jupyter_PORT_LIST --ip=0.0.0.0 --NotebookApp.token=\"\" --NotebookApp.allow_origin=\"*\" ",
+      "portList": [
+        {
+          "label": "jupyter",
+          "beginAt": 0,
+          "portNumber": 1
+        }
+      ]
+    }
+  ]
+}
+```
